@@ -9,9 +9,7 @@ package calculadoraejemplo;
  * @since 1.0
  * @see <a href="https://docs.oracle.com/en/java/">Java Documentation</a>
  
- //////
- 
- 
+
  
  */
 public class CalculadoraEjemplo {
@@ -26,8 +24,8 @@ public class CalculadoraEjemplo {
      * @param operando2 Segundo operando para las operaciones.
      */
     public CalculadoraEjemplo(double operando1, double operando2) {
-        this.operando1 = operando1;
-        this.operando2 = operando2;
+        this.operando1 = operando2;
+        this.operando2 = operando4;
     }
 
     /**
